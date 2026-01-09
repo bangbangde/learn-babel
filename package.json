@@ -1,0 +1,16 @@
+{
+  "name": "learn-babel",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "bin": {
+    "init": "bin/init.js"
+  },
+  "scripts": {
+    "test": "init"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "packageManager": "pnpm@10.27.0"
+}
