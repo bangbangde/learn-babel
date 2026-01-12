@@ -4,7 +4,8 @@
   "private": true,
   "type": "module",
   "bin": {
-    "init": "bin/init.js"
+    "init": "bin/init.js",
+    "test": "bin/test.js"
   },
   "scripts": {
     "test": "init"
@@ -12,5 +13,10 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "packageManager": "pnpm@10.27.0"
+  "packageManager": "pnpm@10.27.0",
+  "dependencies": {
+    "@babel/cli": "^7.28.3",
+    "@babel/core": "^7.28.5",
+    "@babel/plugin-transform-arrow-functions": "^7.27.1"
+  }
 }

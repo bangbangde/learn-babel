@@ -6,7 +6,17 @@ settings:
 
 importers:
 
-  .: {}
+  .:
+    dependencies:
+      '@babel/cli':
+        specifier: ^7.28.3
+        version: 7.28.3(@babel/core@7.28.5)
+      '@babel/core':
+        specifier: ^7.28.5
+        version: 7.28.5
+      '@babel/plugin-transform-arrow-functions':
+        specifier: ^7.27.1
+        version: 7.27.1(@babel/core@7.28.5)
 
   packages/exp-0:
     dependencies:
