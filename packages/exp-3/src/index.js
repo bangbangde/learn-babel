@@ -1,14 +1,8 @@
-export const name = 'exp-3';
-
-const asyncFn = async () => {
-  console.log('asyncFn')
-  await Promise.resolve(1)
-  console.log('asyncFn end')
+class A {
+  constructor(x) {
+    this.x = x;
+  }
 }
 
-asyncFn()
-
-export default {
-  name,
-  asyncFn
-}
+const obj = { a: 1 };
+const merged = { ...obj };
